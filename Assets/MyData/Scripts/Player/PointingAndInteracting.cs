@@ -6,6 +6,8 @@ public class PointingAndInteracting : MonoBehaviour
 {
     [SerializeField] private float pointRange;
 
+    [SerializeField] private TextMesh interactionText;
+
     void Start()
     {
         
@@ -22,7 +24,7 @@ public class PointingAndInteracting : MonoBehaviour
         Ray ray = new Ray (transform.position , transform.forward);
         RaycastHit hit;
 
-        Debug.DrawRay(transform.position, transform.forward, Color.red);
+        Debug.DrawRay(transform.position, transform.up * -1, Color.red);
 
         if(Physics.Raycast(ray , out hit , pointRange))
         {
