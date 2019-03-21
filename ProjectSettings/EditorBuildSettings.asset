@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6a2643fe8e067364f99af3403c56b478
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: c137c13e4c1a4214787b8ffd56517c05
+  - enabled: 1
     path: Assets/XR/GoogleVR/Demos/Scenes/PermissionsDemo.unity
     guid: 5d5572a3735414cc9ad53b169fe2c7e8
   m_configObjects: {}
