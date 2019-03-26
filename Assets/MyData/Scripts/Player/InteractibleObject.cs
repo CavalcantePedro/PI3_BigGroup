@@ -2,21 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractibleObject : MonoBehaviour
+[System.Serializable]
+public class InteractibleObject : System.Object
 {
-    [SerializeField] private string actionName;
+    public string objectName;
+    public string actionDescription;
 
 
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
 }
