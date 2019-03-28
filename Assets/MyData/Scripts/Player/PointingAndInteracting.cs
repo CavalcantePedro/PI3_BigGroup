@@ -59,6 +59,7 @@ public class PointingAndInteracting : MonoBehaviour
                     possibleActionText.text = interactibleObjects[i].actionDescription;
                 }
         }
+        print("000");
         return null;
     }
 }
